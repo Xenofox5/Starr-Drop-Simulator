@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+#starrDropContainer {
+    display: inline-block;
+    margin: 20px;
+}
+
+#starrDrop {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.tap-effect {
+    animation: tapAnimation 0.2s ease;
+}
+
+@keyframes tapAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+#rarityDisplay, #rewardDisplay {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px;
+}
+
+#openButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
