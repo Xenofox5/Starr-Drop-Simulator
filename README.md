@@ -2,3 +2,4 @@
 Simple Starr Drop simulator I made for Brawl Stars.
 Gadgets, star powers, hypercharges, and skins are not specified (brawlers are).
 Last update: 26/02/2025
+https://xenofox5.github.io/Starr-Drop-Simulator/
